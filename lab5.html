@@ -1,0 +1,50 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>lab5</title>
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <!-- Подключаем CSS -->
+	    <link rel="stylesheet" href="css/style_lab5.css" />
+	</head>
+	
+	<body>
+
+    <div class="content">
+
+      <div>
+        <h2 id="news1" class="news">Новость 1</h2>
+        <p class="one_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+        <button class="button" id ="button_1" name="button_1" type="submit">Открыть всплывающее окно</button>
+      </div>
+
+      <div>
+        <h2 id="news2" class="news">Новость 2</h2>
+        <p class="two_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+        <button class="button" id ="button_2" name="button_2">Открыть всплывающее окно</button>
+      </div>
+
+      <div>
+        <h2 id="news3" class="news">Новость 3</h2>
+        <p class="three_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+        <button class="button" id ="button_3"name="button_3">Открыть всплывающее окно</button>
+      </div>
+
+    </div>
+
+    <div id="popup" class="popup">
+      <div class="popup_body" >
+        <div class="popup_content">
+          <div class="popup_title" id="popup_title"></div>
+          <div class="popup_text"  id="popup_text"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/scriptJS.js"></script>
+  </body>
+</html>
